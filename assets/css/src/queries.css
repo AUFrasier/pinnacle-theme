@@ -1,0 +1,18 @@
+@import "_custom-media.css";
+
+@media (--mobile-device-laptop-sub) {
+    .mobile-navigation {
+        display: block !important;
+	}
+	.main-navigation {
+        display: none !important;
+    }
+}
+
+@media (--mobile-device-tablet) {
+    
+}
+
+@media (--mobile-device-phone-L) {
+    
+}

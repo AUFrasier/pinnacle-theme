@@ -1,0 +1,54 @@
+/**
+ * Custom Properties
+ * aka CSS variables.
+ *
+ * @link: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+ **/
+ @import url('https://fonts.googleapis.com/css?family=Muli:400,800,900&display=swap');
+:root {
+	--global-font-color: black;
+	--global-font-family: "Muli", "Muli Bold", sans-serif;
+	--global-font-size: 18;
+	--global-font-line-height: 1.4;
+	--content-width: 80%;
+	--dropdown-symbol-width: 0.7em;
+
+	/* Custom editor colors */
+	--color-theme-primary: #e36d60;
+	--color-theme-secondary: #41848f;
+	--color-theme-red: #c0392b;
+	--color-theme-green: #27ae60;
+	--color-theme-blue: #2980b9;
+	--color-theme-yellow: #f1c40f; 
+	--color-theme-black: #1c2833;
+	--color-theme-grey: #95a5a6;
+	--color-theme-white: #ecf0f1;
+	--color-custom-daylight: #97c0b7;
+	--color-custom-gold: #f18f39;
+
+	/* Custom theme colors */ 
+	--color-custom-one: #001689;
+	--color-custom-two: rgb(231,237,243);
+	--color-custom-three: #f26829;
+	--color-custom-four: #000f9f;
+	--color-custom-five: #005cb9;
+	--color-custom-six: #003da6;
+	--color-custom-seven: #0083c1;
+	--color-custom-eight: rgb(231,237,243);
+	--color-custom-nine: rgb(16,75,134);
+	--color-shade: rgba(0, 0, 0, 0.30);
+
+	--color-link: rgb(27,117,188);
+	--color-link-visited: #164799;
+	--color-link-active: #174899;
+
+	--color-quote-border: #000;
+	--color-quote-citation: #6c7781;
+
+	/* Custom editor font sizes */
+	--font-size-smaller: 12px;
+	--font-size-small: 14px;
+	--font-size-regular: 18px;
+	--font-size-large: 20px;
+	--font-size-larger: 22px;
+}

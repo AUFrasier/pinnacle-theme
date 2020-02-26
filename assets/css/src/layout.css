@@ -1,0 +1,206 @@
+@import "_custom-properties.css";
+@import "_custom-media.css";
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.header-container {
+	overflow: hidden;
+}
+.header-top {
+    background-image: url();
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 200px;
+	position: relative;
+}
+.header-contact-action {
+    font-size:30px;
+}
+.header-contact-action a {
+    color: white;
+    font-family: var(--global-font-family);
+    font-weight: 900;
+}
+
+/*--------------------------------------------------------------
+## Hero
+--------------------------------------------------------------*/
+.hero-container {
+	background-image: url(../images/hero-image.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 700px;
+	position: relative;
+}
+.hero-content {
+	width: 100%;
+	position: absolute;
+	top: 130px;
+}
+.hero-container .hero-text-overlay {
+	width:100%;
+	background: var(--color-shade);
+	text-align: center;
+	margin-bottom: 100px;
+}
+.hero-container .hero-text-overlay h1 {
+	margin: 0;
+	color:white;
+	padding:30px;
+}
+.hero-action {
+	display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+	background-color: var(--color-custom-three);
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+#hero-btn {
+	font-weight: 900;
+	font-size: 24px;
+}
+#hero-btn a {
+	color: white;
+}
+#hero-tag span a {
+	color: white;
+}
+#hero-tag {
+	font-family: var(--global-font-family);
+	font-size: 24px;
+	font-weight: 900;
+	display: block;
+    margin: auto;
+	width: 80%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+/*--------------------------------------------------------------
+## Box
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Site toggles / Style checks
+--------------------------------------------------------------*/
+.is-visible {
+	display: block !important;
+}
+
+/*--------------------------------------------------------------
+## Sections / Wraps
+--------------------------------------------------------------*/
+.big-text {
+	font-size: 30px;
+	font-weight: 900;
+	font-family: var(--global-font-family);
+	color: var(--color-custom-four);
+	text-transform: uppercase;
+	text-align: center;
+}
+.wrap {
+	position: relative;
+}
+
+/*--------------------------------------------------------------
+## Actions / Directs
+--------------------------------------------------------------*/
+.action {
+	display: block;
+    margin: auto;
+}
+#action-btn {
+	font-weight: 900;
+	font-size: 20px;
+}
+#action-btn a {
+	color: white;
+}
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+
+.footer-content {
+	background-color: var(--color-custom-seven);
+	height: 100%;
+}
+.footer-container {
+	display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------------------------
+## List
+--------------------------------------------------------------*/
+.list li {
+	list-style-image: url(../images/Checkmark.png);
+	font-weight: 900;
+	font-size: 24px !important;
+	padding: 15px;
+}
+
+/*--------------------------------------------------------------
+## Testimonials / Slider
+--------------------------------------------------------------*/
+.swiper-container {
+	width: 100%;
+	height: 100%; 
+  }
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.testimonial-container {
+	margin-bottom: 7rem;
+}
+.testimonial-info {
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.testimonial-author {
+	font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+.related-posts-container {
+	margin: 0 auto 2em;
+	max-width: var(--content-width);
+	padding: 20px;
+}
+.related-posts {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.related-post {
+	padding: 10px;
+}
+.related-title {
+	margin-top: 10px;
+}
+.read-more {
+	margin-right: auto;
+    margin-left: auto;
+    max-width: var(--content-width);
+    display: block;
+}
+.entry-graphic .blog-image{
+	width: 100%;
+	margin-bottom: 20px;
+}
