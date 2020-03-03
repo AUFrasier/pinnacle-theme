@@ -9,5 +9,5 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div id="hero-tag">
-    <span><a href=""></a></span>
+    <span>We are your premier roofing contractor in New York’s Capital Region and in Southern Vermont.</span>
 </div><!-- .hero-tag -->

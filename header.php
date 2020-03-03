@@ -10,6 +10,7 @@
  */
 
 namespace WP_Rig\WP_Rig;
+$frontPageHeroClass = is_front_page() ? "front-page-hero" : '';
 
 ?>
 <!doctype html>
@@ -28,6 +29,8 @@ namespace WP_Rig\WP_Rig;
 	?>
 
 	<?php wp_head(); ?>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,800,900&display=swap" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
@@ -36,6 +39,10 @@ namespace WP_Rig\WP_Rig;
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
 
 	<header id="masthead" class="site-header"> 
-		<div class="header-container">
+		<div class="header-container <?= $frontPageHeroClass ?>">
+			<?php get_template_part('template-parts/header/top'); ?>
+			<?php if(is_front_page()) {
+				get_template_part( 'template-parts/header/bottom' );
+			} ?>
 		</div><!-- .header-container -->
 	</header><!-- .site-header -->

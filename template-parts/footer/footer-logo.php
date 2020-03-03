@@ -9,6 +9,6 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 
-<div class="footer-logo">
-    <img src="<?=get_template_directory_uri()?>" id="footer-logo" alt="Footer Logo" >
+<div class="footer-logo align-self-start">
+    <img src="<?=get_template_directory_uri()?>/assets/images/Pinnacle-logo.png" id="footer-logo" alt="Footer Logo" >
 </div><!-- .footer-logo -->

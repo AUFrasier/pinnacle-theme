@@ -9,6 +9,9 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="header-top">
-    <?php get_template_part( 'template-parts/header/branding' ); ?>
-    <?php get_template_part( 'template-parts/partials/box' ); ?>
+    <?php get_template_part('template-parts/header/branding'); ?>
+    <div class="site-directs">
+        <?php get_template_part('template-parts/header/header-actions'); ?>
+        <?php get_template_part( 'template-parts/header/navigation' ); ?>
+    </div>
 </div><!-- .header-top -->

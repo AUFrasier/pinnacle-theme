@@ -13,3 +13,5 @@
 @custom-media --mobile-device-laptop-sub screen and (max-width: 1023px);
 @custom-media --mobile-device-tablet screen and (max-width: 768px);
 @custom-media --mobile-device-phone-L screen and (max-width: 425px);
+@custom-media --mobile-device-phone-M screen and (max-width: 375px);
+@custom-media --mobile-device-phone-S screen and (max-width: 320px);

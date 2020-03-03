@@ -218,6 +218,7 @@ select {
 	text-align: center;
 	float: left;
 	padding: 30px;
+    align-self: center;
 }
 
 .site-title {
@@ -245,6 +246,9 @@ select {
 	word-wrap: break-word;
 	color: #757575;
 }
+.site-directs {
+	display: grid;
+}
 
 /*--------------------------------------------------------------
 ## Menu
@@ -257,65 +261,43 @@ select {
 /*--------------------------------------------------------------
 ## Main navigation menu
 --------------------------------------------------------------*/
+
 .main-navigation {
 	clear: both;
 	padding: 0 1em;
-	font-family: var(--highlight-font-family);
 	font-stretch: condensed;
 	width: 100%;
 	margin: auto;
-	background-color: var(--color-custom-five);
 }
 .main-navigation li {
 	position: relative;
 	width: 100%;
+	font-weight: 900;
     text-align: center;
     z-index: 1;
-}
-.main-navigation li:after {
-	content: " ";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: -20px;
-    margin-right: 0px;
-    z-index: -1;
-    transform-origin: bottom left;
-    -ms-transform: skew(-30deg, 0deg);
-    -webkit-transform: skew(-30deg, 0deg);
-    transform: skew(-30deg, 0deg);
-}
-.sub-menu li:after {
-	content: none;
- }
-.main-navigation li:hover:after {
-	background: #f26829;
-}
-.main-navigation .sub-menu {
-	background: #f26829;
-    width: 80%;
-    position: absolute;
-}
-.main-navigation .sub-menu li a{
-	padding:5px;
 }
 .main-navigation a {
 	display: block;
     width: 100%;
     padding: 0.5em 15px 0.5em 0px;
     text-decoration: none;
-    color: #fff;
-    font-size: var(--font-size-smaller);
-    font-weight: 700;
-    padding-right: 10px;
+    color: black !important;
+    font-size: var(--font-size-regular);
+    font-weight: 900;
+	padding-right: 10px;
+	font-family: var(--global-font-family);
 }
-
+.main-navigation a:hover {
+	color: var(--color-link) !important;
+}
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+#menu-menu-1 {
+	display: flex;
+	justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -356,7 +338,7 @@ select {
 }
 .mobile-navigation label b i {
 	display: block;
-	background: var(--color-custom-two);
+	background: var(--primary-color);
 	width: 40px;
 	height: 5px;
 	position: absolute;
@@ -373,7 +355,7 @@ select {
 	top: 20px;
 }
 .mobile-navigation menu {
-	background: var(--color-custom-three);
+	background: white;
 	width: 100%;
 	height: 100%;
 	opacity: 0;
@@ -393,12 +375,12 @@ select {
 .mobile-navigation menu li a {
 	padding: 10px 15px;
 	font-family: var(--global-font-family);
-	font-weight: bold;
-	font-size: 16px;
+	font-weight: 900;
+	font-size: var(--font-size-regular);
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: left;
-	color: var(--color-custom-one);
+	color: var(--primary-color);
 	display: block;
 }
 .mobile-navigation menu li a:hover {
@@ -423,6 +405,7 @@ select {
 	opacity: 1;
 }
 
+
 /*--------------------------------------------------------------
 ## Submenu Items
 --------------------------------------------------------------*/
@@ -445,7 +428,7 @@ select {
 	max-width: var(--content-width);
 	overflow: hidden;
 	padding: 0 1.5rem 2em;
-	font-family: var(--highlight-font-family);
+	font-family: var(--global-font-family-secondary);
 	font-stretch: condensed;
 }
 

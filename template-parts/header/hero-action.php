@@ -9,5 +9,5 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="hero-action">
-    <div id="hero-btn"><a href=""></a></div>
+    <div id="hero-btn"><a href="/contact-us">Get in Touch</a></div>
 </div><!-- .hero-action -->

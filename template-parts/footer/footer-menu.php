@@ -10,7 +10,7 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="footer-menu-wrapper">
-    <menu class="footer-menu">
+    <menu class="footer-menu text-center mb-5">
         <?php 
             // Check if menu exists
             if ( $menu_items = wp_get_nav_menu_items( 'Menu 1' ) ) {
@@ -22,7 +22,7 @@ namespace WP_Rig\WP_Rig;
                     $current = ( $menu_item->object_id == get_queried_object_id() ) ? 'current' : '';
                     
                     // Print menu item
-                    echo '<li class="' . $current . '"><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                    echo '<li class="p-2 ' . $current . '"><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
                 }
             } 
         ?>

@@ -3,49 +3,59 @@
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
+.front-page-hero {
+	background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+    background-position: 50%;
+}
 .header-container {
 	overflow: hidden;
 }
 .header-top {
-    background-image: url();
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 200px;
+	height: 150px;
 	position: relative;
-}
-.header-contact-action {
-    font-size:30px;
+	display: grid;
+	grid-template-columns: 40% 60%;
+	background: rgba(255,255,255, 0.6);
 }
 .header-contact-action a {
-    color: white;
+    color: var(--primary-color);
     font-family: var(--global-font-family);
-    font-weight: 900;
+	font-weight: 900;
+	font-size:30px;
+}
+#logo {
+	max-width: 220px;
+}
+.header-actions-wrapper {
+	text-align: right;
+    align-self: end;
+    margin-right: 10%;
 }
 
 /*--------------------------------------------------------------
 ## Hero
 --------------------------------------------------------------*/
 .hero-container {
-	background-image: url(../images/hero-image.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 700px;
 	position: relative;
 }
 .hero-content {
-	width: 100%;
 	position: absolute;
-	top: 130px;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 .hero-container .hero-text-overlay {
 	width:100%;
 	background: var(--color-shade);
 	text-align: center;
-	margin-bottom: 100px;
 }
-.hero-container .hero-text-overlay h1 {
+.hero-text {
 	margin: 0;
 	color:white;
 	padding:30px;
@@ -54,31 +64,33 @@
 	display: block;
     margin: auto;
     width: 80%;
-    max-width: 500px;
-	background-color: var(--color-custom-three);
+	max-width: 600px;
+    min-width: 200px;
 	text-align: center;
 	text-transform: uppercase;
 	padding: 5px 10px;
+	background: var(--primary-color);
+	margin-top: 20px;
 }
 #hero-btn {
 	font-weight: 900;
 	font-size: 24px;
 }
 #hero-btn a {
-	color: white;
+	color: white !important;
 }
-#hero-tag span a {
-	color: white;
+#hero-btn a:hover {
+	color: white !important;
 }
 #hero-tag {
 	font-family: var(--global-font-family);
 	font-size: 24px;
-	font-weight: 900;
+	font-weight: normal;
 	display: block;
+	color: white;
     margin: auto;
 	width: 80%;
 	text-align: center;
-	margin-top: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -94,18 +106,98 @@
 }
 
 /*--------------------------------------------------------------
-## Sections / Wraps
+## Content
 --------------------------------------------------------------*/
 .big-text {
 	font-size: 30px;
 	font-weight: 900;
 	font-family: var(--global-font-family);
-	color: var(--color-custom-four);
 	text-transform: uppercase;
 	text-align: center;
+	color: var(--primary-color);
 }
 .wrap {
 	position: relative;
+}
+#bond {
+	display: block;
+	margin: auto;
+	width:var(--content-width);
+	padding:25px;
+}
+.bar {
+	background-color: var(--primary-color);
+	height: 2px;
+    width: 80%;
+    margin: auto;
+}
+.divider {
+	background-color: var(--secondary-color);
+	height: 2px;
+    width: 100%;
+    margin: auto;
+}
+.contact-info, .address, .contact-tag, .service-area-info {
+	text-align: center;
+}
+.wrap-2, .wrap-5 {
+	background-color: var(--secondary-color);
+}
+.wrap-3 .action {
+	width: 40%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*--------------------------------------------------------------
+## Flip Boxes
+--------------------------------------------------------------*/
+.flip-box {
+	margin: 0 auto;
+	height: 215px;  
+	position: relative;
+}
+.flip-box .front {
+	z-index: 900;
+	text-align: center;
+	transform: rotateX(0deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	transition: all .4s ease-in-out;
+}
+.flip-box .front span{
+	font-weight: 900;
+	color: var(--primary-color);
+	margin-top: 30px;
+    display: block;
+}
+.flip-box .back {
+	background-color: var(--tertiary-color);
+	color: white;
+	text-align: center;
+	padding:5px;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	transform: rotateX(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	transition: all .4s ease-in-out;
+}
+.flip-box .back span{
+	font-weight: 900;
+	margin-bottom: 10px;
+    display: block;
+}
+.flip-box.flip .front {
+	z-index: 900;
+	transform: rotateX(-180deg);
+}
+.flip-box.flip .back {
+	z-index: 1000;
+	transform: rotateX(0deg);
 }
 
 /*--------------------------------------------------------------
@@ -114,37 +206,69 @@
 .action {
 	display: block;
     margin: auto;
+    width: 100%;
+	max-width: 600px;
+    min-width: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	background: var(--primary-color);
+	margin-top: 20px;
 }
 #action-btn {
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 24px;
 }
 #action-btn a {
-	color: white;
+	color: white !important;
+}
+#action-btn a:hover {
+	color: white !important;
 }
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
 
-.footer-content {
-	background-color: var(--color-custom-seven);
-	height: 100%;
-}
 .footer-container {
+	height: 100%;
+	background-color: var(--secondary-color);
+}
+.footer-content {
 	display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.footer-menu {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding:0;
+}
+.footer-menu li a {
+	color: black !important;
+}
+.contact-text {
+	font-weight: 900;
+}
+.contact-text a {
+	color: black !important;
+}
+.address-text a {
+	color: black !important;
+}
+.footer-btn {
+	font-weight: 900;
+	font-size: 16px;
+}
+.footer-btn a  {
+	color: white !important;
+}
+.footer-btn a:hover {
+	color: white !important;
 }
 
 /*--------------------------------------------------------------
 ## List
 --------------------------------------------------------------*/
-.list li {
-	list-style-image: url(../images/Checkmark.png);
-	font-weight: 900;
-	font-size: 24px !important;
-	padding: 15px;
-}
 
 /*--------------------------------------------------------------
 ## Testimonials / Slider
@@ -173,6 +297,11 @@
 	font-size: 24px;
     margin-bottom: 10px;
     display: block;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+	font-size: 60px !important;
+	font-weight: 900;
+	color: var(--tertiary-color) !important;
 }
 
 /*--------------------------------------------------------------
@@ -203,4 +332,28 @@
 .entry-graphic .blog-image{
 	width: 100%;
 	margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+## Form
+--------------------------------------------------------------*/
+
+.gform_wrapper {
+	padding: 20px;
+	margin: auto !important;
+    width: 90%;
+}
+
+#gform_1 .gfield_label {
+	font-family: var(--global-font-family);
+	color: black;
+}
+#gform_submit_button_1 {
+	background-color: var(--primary-color);
+	font-family: var(--global-font-family-bold);
+	color: white !important;
+	border-radius: 10px;
+	border: none;
+	font-weight:bold;
+	padding:20px;
 }

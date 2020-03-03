@@ -5,19 +5,18 @@
 --------------------------------------------------------------*/
 /* stylelint-disable */
 a {
-	color: var(--color-link);
+	color: var(--color-link) !important;
 }
 /* stylelint-enable */
 
 a:visited {
-	color: var(--color-link-visited);
 	text-decoration: none !important;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: var(--color-link-active);
+	color: var(--color-link-active) !important;
 	text-decoration: none !important;
 }
 

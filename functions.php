@@ -148,7 +148,7 @@ function show_custom_metabox_content(){
 // load css into the website's front-end
 function mytheme_enqueue_styles() {
 	wp_enqueue_style( 'layout', get_stylesheet_directory_uri() . '/assets/css/layout.min.css' ); 
-	wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', '/wp-content/lib/bootstrap/css/bootstrap.min.css' );
 	if(is_front_page()) {
 		wp_register_style( 'swiper-css', content_url() . '/lib/swiper/css/swiper.min.css' ); 
 		wp_enqueue_style('swiper-css');
