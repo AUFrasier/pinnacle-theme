@@ -265,6 +265,14 @@
 .footer-btn a:hover {
 	color: white !important;
 }
+.copyright-bar-wrapper {
+    display: flex;
+    color: black;
+    font-size: 16px;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding-bottom: 10px;
+}
 
 /*--------------------------------------------------------------
 ## List

@@ -35,7 +35,7 @@ namespace WP_Rig\WP_Rig;
 			</div>
 		</div><!-- .footer-container -->
 	</div><!-- .footer-content -->
-	<?php //get_template_part( 'template-parts/footer/copyright-bar' ); ?>
+	<?php get_template_part( 'template-parts/footer/copyright-bar' ); ?>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
