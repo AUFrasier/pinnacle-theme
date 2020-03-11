@@ -24,9 +24,9 @@ namespace WP_Rig\WP_Rig;
                         <p class="address-text"><a href="https://goo.gl/maps/YwT4RFhYDi3AWMrHA">1101 Wedgwood Heights <br> Schenectady, New York 12306</a></p>
                     </div>
                     <div class="contact-info">
-                        <p><span>Office:</span> <a href="tel:+5184352400">518-435-2400</a></p>
-                        <p><span>Fax:</span> 518-435-2343</p>
-                        <p><span>Email:</span> <a href="mailto:info@pinnroof.com">info@pinnroof.com</a></p>
+                        <p><strong>Office:</strong> <a href="tel:+5184352400">518-435-2400</a></p>
+                        <p><strong>Fax:</strong> 518-435-2343</p>
+                        <p><strong>Email:</strong> <a href="mailto:info@pinnroof.com">info@pinnroof.com</a></p>
                     </div>
                     <div class="service-area-info">
                         <p><span class="font-weight-bolder">Service Areas - Central New York and Southern Vermont:</span> Albany, Schenectady, Saratoga Springs (New York) and Manchester, VT, and the surrounding areas.</p>

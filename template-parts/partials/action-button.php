@@ -10,5 +10,5 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="action shadow">
-    <div id="action-btn"><a href="/contact-us">Get in Touch</a></div>
+    <a href="/contact-us"><div id="action-btn"><span>Get in Touch</span></div></a>
 </div><!-- .action -->

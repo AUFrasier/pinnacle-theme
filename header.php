@@ -11,7 +11,7 @@
 
 namespace WP_Rig\WP_Rig;
 $frontPageHeroClass = is_front_page() ? "front-page-hero" : '';
-
+$headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?> class="no-js">
@@ -38,7 +38,7 @@ $frontPageHeroClass = is_front_page() ? "front-page-hero" : '';
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'wp-rig' ); ?></a>
 
-	<header id="masthead" class="site-header"> 
+	<header id="masthead" class="<?= $headerClass ?>">
 		<div class="header-container <?= $frontPageHeroClass ?>">
 			<?php get_template_part('template-parts/header/top'); ?>
 			<?php if(is_front_page()) {

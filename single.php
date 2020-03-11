@@ -11,8 +11,6 @@ namespace WP_Rig\WP_Rig;
 
 get_header();
 
-wp_rig()->print_styles( 'wp-rig-content' );
-
 ?>
 	<main id="primary" class="site-main">
 		<?php
@@ -22,8 +20,10 @@ wp_rig()->print_styles( 'wp-rig-content' );
 
 			get_template_part( 'template-parts/content/entry', get_post_type() );
 		}
+		
+		get_template_part( 'template-parts/blog/blog-related-posts' );
 		?>
 	</main><!-- #primary -->
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

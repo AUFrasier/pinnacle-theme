@@ -15,7 +15,7 @@ namespace WP_Rig\WP_Rig;
 
 <footer id="colophon" class="site-footer">
 	<div class="footer-container">
-		<div class="footer-content container-fluid pt-3">
+		<div class="footer-content container-fluid pb-3 pt-3">
 			<div class="row align-items-center m-3">
 				<div class="col-lg-8 col-md-12 align-self-end">
 					<div class="row">

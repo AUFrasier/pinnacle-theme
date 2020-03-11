@@ -7,7 +7,6 @@
 	background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
     background-position: 50%;
 }
 .header-container {
@@ -34,6 +33,9 @@
     align-self: end;
     margin-right: 10%;
 }
+.site-header-subpage {
+	border-bottom: solid 5px var(--primary-color) 
+}
 
 /*--------------------------------------------------------------
 ## Hero
@@ -42,13 +44,10 @@
 	position: relative;
 }
 .hero-content {
-	position: absolute;
-    top: 130px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+    width: 80%;
+    margin: 10% auto 15%;
+    position: relative;
+    top: 40px;
 }
 .hero-container .hero-text-overlay {
 	width:100%;
@@ -67,7 +66,6 @@
 	max-width: 600px;
     min-width: 200px;
 	text-align: center;
-	text-transform: uppercase;
 	padding: 5px 10px;
 	background: var(--primary-color);
 	margin-top: 20px;
@@ -76,10 +74,10 @@
 	font-weight: 900;
 	font-size: 24px;
 }
-#hero-btn a {
+#hero-btn span {
 	color: white !important;
 }
-#hero-btn a:hover {
+#hero-btn span:hover {
 	color: white !important;
 }
 #hero-tag {
@@ -92,7 +90,9 @@
 	width: 80%;
 	text-align: center;
 }
-
+.hero-text {
+	font-size: 36px!important;
+}
 /*--------------------------------------------------------------
 ## Box
 --------------------------------------------------------------*/
@@ -112,7 +112,6 @@
 	font-size: 30px;
 	font-weight: 900;
 	font-family: var(--global-font-family);
-	text-transform: uppercase;
 	text-align: center;
 	color: var(--primary-color);
 }
@@ -146,9 +145,13 @@
 .wrap-3 .action {
 	width: 40%;
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.wrap-3 .service-text {
+	margin: 10px 15%;
 }
 
 /*--------------------------------------------------------------
@@ -210,7 +213,6 @@
 	max-width: 600px;
     min-width: 200px;
 	text-align: center;
-	text-transform: uppercase;
 	padding: 5px 10px;
 	background: var(--primary-color);
 	margin-top: 20px;
@@ -219,10 +221,10 @@
 	font-weight: 900;
 	font-size: 24px;
 }
-#action-btn a {
+#action-btn span {
 	color: white !important;
 }
-#action-btn a:hover {
+#action-btn span:hover {
 	color: white !important;
 }
 /*--------------------------------------------------------------
@@ -259,10 +261,10 @@
 	font-weight: 900;
 	font-size: 16px;
 }
-.footer-btn a  {
+.footer-btn span  {
 	color: white !important;
 }
-.footer-btn a:hover {
+.footer-btn span:hover {
 	color: white !important;
 }
 .copyright-bar-wrapper {
@@ -338,8 +340,9 @@
     display: block;
 }
 .entry-graphic .blog-image{
-	width: 100%;
-	margin-bottom: 20px;
+	width: 35%;
+    margin-bottom: 20px;
+    margin: auto;
 }
 
 /*--------------------------------------------------------------

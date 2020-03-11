@@ -23,7 +23,7 @@ namespace WP_Rig\WP_Rig;
                         <p>Whether your roof needs a quick fix or to be fully replaced, we have your solution. With extended warranties and top of the line materials, you won’t have to worry about your roof for years to come.</p>
                     </div>
                     <div class="action shadow">
-                        <div id="action-btn"><a href="/residential">Learn More</a></div>
+                        <a href="/residential"><div id="action-btn"><span>Learn More</span></div></a>
                     </div><!-- .action -->
                 </div>
                 <div class="col-lg-6 col-md-12 mb-5">
@@ -33,7 +33,7 @@ namespace WP_Rig\WP_Rig;
                         <p>With a wide variety of material and installation certifications, you can be sure we have the products you need and the knowledge to install it. Let us take care of your roof so you can focus on what matters: Your business.</p>
                     </div>
                     <div class="action shadow">
-                        <div id="action-btn"><a href="/commercial">Learn More</a></div>
+                        <a href="/commercial"><div id="action-btn"><span>Learn More</span></div></a>
                     </div><!-- .action -->
                 </div>
             </div>

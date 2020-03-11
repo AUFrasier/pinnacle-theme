@@ -10,8 +10,8 @@ namespace WP_Rig\WP_Rig;
 
 
 <div class="flip-box-container pt-5">
-    <div class="row justify-content-center align-items-center">
-        <div class="col-lg-3 col-sm-12">
+    <div class="row justify-content-center align-items-center mb-4">
+        <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-box">
                 <div class="front">
                     <img src="<?=get_template_directory_uri()?>/assets/images/Communication_icon.png" alt="Communication Icon">
@@ -24,7 +24,7 @@ namespace WP_Rig\WP_Rig;
             </div>
         </div>
 
-        <div class="col-lg-3 col-sm-12">
+        <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-box">
                 <div class="front">
                     <img src="<?=get_template_directory_uri()?>/assets/images/Integrity_icon.png" alt="Integrity Icon">
@@ -37,7 +37,7 @@ namespace WP_Rig\WP_Rig;
             </div>
         </div>
 
-        <div class="col-lg-3 col-sm-12">
+        <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-box">
                 <div class="front">
                     <img src="<?=get_template_directory_uri()?>/assets/images/Orginization_icon.png" alt="Organization Icon">
@@ -50,7 +50,7 @@ namespace WP_Rig\WP_Rig;
             </div>
         </div>
 
-        <div class="col-lg-3 col-sm-12">
+        <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-box">
                 <div class="front">
                     <img src="<?=get_template_directory_uri()?>/assets/images/Cleanup_icon.png" alt="Clean Up Icon">

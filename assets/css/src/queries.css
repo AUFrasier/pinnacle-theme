@@ -1,7 +1,10 @@
 @import "_custom-media.css";
 
 @media (--mobile-device-laptop-sub) {
-
+    .front-page-hero {
+		height: 100% !important;
+		padding-bottom: 4em !important;
+	}
 }
 
 @media (--mobile-device-tablet) {
@@ -34,6 +37,12 @@
     }
     .testimonial-info {
         width: 60%;
+    }
+    .entry-graphic .blog-image{
+        width: 100%;
+    }
+    .wrap-3 .service-text {
+        margin: 0;
     }
 }
 
