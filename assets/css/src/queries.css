@@ -6,7 +6,6 @@
 		padding-bottom: 4em !important;
 	}
 }
-
 @media (--mobile-device-tablet) {
     .mobile-navigation {
         display: block !important;

@@ -44,10 +44,10 @@
 	position: relative;
 }
 .hero-content {
-    width: 80%;
+	width: 80%;
     margin: 10% auto 15%;
-    position: relative;
     top: 40px;
+    position: relative;
 }
 .hero-container .hero-text-overlay {
 	width:100%;
@@ -58,6 +58,8 @@
 	margin: 0;
 	color:white;
 	padding:30px;
+	font-weight: 900 !important;
+	font-size: 36px!important;
 }
 .hero-action {
 	display: block;
@@ -89,9 +91,6 @@
     margin: auto;
 	width: 80%;
 	text-align: center;
-}
-.hero-text {
-	font-size: 36px!important;
 }
 /*--------------------------------------------------------------
 ## Box
@@ -174,7 +173,8 @@
 	font-weight: 900;
 	color: var(--primary-color);
 	margin-top: 30px;
-    display: block;
+	display: block;
+	font-size: 22px;
 }
 .flip-box .back {
 	background-color: var(--tertiary-color);

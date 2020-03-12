@@ -25,7 +25,6 @@ h5,
 h6 {
 	font-family: var(--global-font-family);
 	font-stretch: condensed;
-	font-weight: 900 !important;
 	clear: both;
 }
 
@@ -40,7 +39,6 @@ h6 {font-size: 12px !important;}
 .page-header .page-title {
 	text-align: center;
 	font-size: 2.5rem;
-	font-weight: 900;
 	line-height: 1.4;
 	margin-top: 1em;
 	margin-bottom: 1em;
