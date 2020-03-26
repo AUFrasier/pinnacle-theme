@@ -8,7 +8,11 @@
   "dev": {
     "browserSync": {
       "live": true,
+<<<<<<< HEAD
       "proxyURL": "pinnacle.artunlimitedproof1.test",
+=======
+      "proxyURL": "pinnacle.artunlimitedproof1.us",
+>>>>>>> 47be7988b444771b7193ae26915b9f20a8ab62c2
       "bypassPort": "8181",
       "https": true
     }

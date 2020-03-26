@@ -40,9 +40,16 @@ $headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 
 	<header id="masthead" class="<?= $headerClass ?>">
 		<div class="header-container <?= $frontPageHeroClass ?>">
+<<<<<<< HEAD
 			<?php 
 			get_template_part('template-parts/header/top');
 			get_template_part( 'template-parts/header/bottom' );
 			?>
+=======
+			<?php get_template_part('template-parts/header/top'); ?>
+			<?php if(is_front_page()) {
+				get_template_part( 'template-parts/header/bottom' );
+			} ?>
+>>>>>>> 47be7988b444771b7193ae26915b9f20a8ab62c2
 		</div><!-- .header-container -->
 	</header><!-- .site-header -->
