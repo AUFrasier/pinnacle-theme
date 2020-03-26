@@ -4,11 +4,7 @@
 # Links
 --------------------------------------------------------------*/
 /* stylelint-disable */
-<<<<<<< HEAD
 a:not(.kt-button) {
-=======
-a {
->>>>>>> 47be7988b444771b7193ae26915b9f20a8ab62c2
 	color: var(--color-link) !important;
 }
 /* stylelint-enable */

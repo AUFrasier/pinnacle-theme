@@ -6,7 +6,6 @@
  */
 
 namespace WP_Rig\WP_Rig;
-<<<<<<< HEAD
 
 $subPageBgImgHeader = "";
 if(is_page(5)) { 
@@ -33,10 +32,4 @@ if(is_home()) {
     <!-- <?php if(is_page(5)) { ?>
         <img src="<?= get_template_directory_uri() ?>/assets/images/PR-header-4.jpg" alt="">
     <?php } ?> -->
-=======
-?>
-
-<div class="header-bottom">
-    <?php get_template_part( 'template-parts/header/hero' ); ?>
->>>>>>> 47be7988b444771b7193ae26915b9f20a8ab62c2
 </div><!-- .header-bottom -->
