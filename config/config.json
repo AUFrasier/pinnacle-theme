@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "slug": "pinnacle-theme",
+    "name": "Pinnacle Roofing  Theme",
+    "author": "Art Unlimited",
+    "PHPNamespace": "WP_Rig\\WP_Rig"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "pinnacle.artunlimitedproof1.test",
+      "bypassPort": "8181",
+      "https": true
+    }
+  }
+}

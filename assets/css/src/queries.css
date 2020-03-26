@@ -1,0 +1,58 @@
+@import "_custom-media.css";
+
+@media (--mobile-device-laptop-sub) {
+    .front-page-hero {
+		height: 100% !important;
+		padding-bottom: 4em !important;
+	}
+}
+@media (--mobile-device-tablet) {
+    .mobile-navigation {
+        display: block !important;
+	}
+	.main-navigation {
+        display: none !important;
+    }
+    .top-content {
+        grid-template-columns: 100%;
+    }
+    .branding-wrapper {
+        float: left;
+        width: 150px;
+    }
+    .header-top {
+        height: auto;
+    }
+    .header-actions-wrapper {
+        text-align: center;
+        margin: 0;
+    }
+    .hero-content {
+        top: 0px; 
+        width: 100%;
+    }
+    .hero-text {
+        font-size: 30px !important;
+    }
+    .testimonial-info {
+        width: 60%;
+    }
+    .entry-graphic .blog-image{
+        width: 100%;
+    }
+    .wrap-3 .service-text {
+        margin: 0;
+    }
+}
+
+@media (--mobile-device-phone-L) {
+    #bond {
+        width: 100%;
+    }
+}
+
+@media (--mobile-device-phone-S) {
+    #logo {
+        max-width: 185px !important;
+    }
+}
