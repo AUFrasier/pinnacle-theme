@@ -28,8 +28,7 @@
     },
     "debug": {
       "styles": false,
-      "scripts": false,
-      "phpcs": true
+      "scripts": false
     }
   },
   "export": {

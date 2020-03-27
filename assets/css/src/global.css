@@ -271,7 +271,6 @@ select {
 }
 .main-navigation li {
 	position: relative;
-	width: 100%;
 	font-weight: 900;
     text-align: center;
     z-index: 1;
@@ -297,7 +296,7 @@ select {
 }
 #menu-menu-1 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 /*--------------------------------------------------------------

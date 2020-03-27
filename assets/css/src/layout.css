@@ -41,7 +41,7 @@
 .header-actions-wrapper {
 	text-align: right;
     align-self: end;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .site-header-subpage .header-top {
 	border-bottom: solid 5px var(--primary-color);
@@ -52,30 +52,35 @@
     background-repeat: no-repeat;
 	background-size: cover;
 	height: 25vw;
+	max-width: 100%;
 }
 .subpage-bg-header-commercial{
 	background-image: url(../images/PR-header-5.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	height: 25vw;
+	max-width: 100%;
 }
 .subpage-bg-header-about-us{
 	background-image: url(../images/PR-header-1.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	height: 25vw;
+	max-width: 100%;
 }
 .subpage-bg-header-contact-us{
 	background-image: url(../images/PR-header-3.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	height: 25vw;
+	max-width: 100%;
 }
 .subpage-bg-header-blog{
 	background-image: url(../images/PR-header-2.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	height: 25vw;
+	max-width: 100%;
 }
 
 

@@ -11,6 +11,9 @@
       "proxyURL": "pinnacle.artunlimitedproof1.test",
       "bypassPort": "8181",
       "https": true
+    },
+    "debug": {
+      "phpcs": false
     }
   }
 }
