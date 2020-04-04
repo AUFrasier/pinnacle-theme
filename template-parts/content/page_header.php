@@ -7,6 +7,12 @@
 
 namespace WP_Rig\WP_Rig;
 
+$subTitleBgImgHeader = "";
+$subpageTitleClass = "subpage-title-bg-header";
+if(is_home() ) { 
+    $subTitleBgImgHeader = "subpage-title-header-blog";
+}
+
 if ( is_404() ) {
 	?>
 	<header class="page-header">
@@ -25,7 +31,7 @@ if ( is_404() ) {
 	<?php
 } elseif ( is_home() && ! is_front_page() ) {
 	?>
-	<header class="page-header">
+	<header class="page-header <?php echo $subTitleBgImgHeader . " " . $subpageTitleClass; ?>">
 		<h1 class="page-title">
 			<?php single_post_title(); ?>
 		</h1>

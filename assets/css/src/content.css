@@ -71,8 +71,11 @@
 .entry-header {
 	text-align: center;
 }
-.page-header,
-.entry-header,
+.entry-header, .page-header {
+	margin: 0;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+}
 .entry-footer,
 .site-info,
 .post-navigation,

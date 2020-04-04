@@ -15,7 +15,7 @@
 .header-top {
 	height: 150px;
 	position: relative;
-	background: rgba(255,255,255, 0.6);
+	background: rgba(255,255,255, 0.8);
 }
 .header-bottom {
 	width: 100%;
@@ -46,41 +46,40 @@
 .site-header-subpage .header-top {
 	border-bottom: solid 5px var(--primary-color);
 }
-
-.subpage-bg-header-residential {
+.subpage-title-bg-header {
+	align-items: center;
+    display: inline-flex;
+    width: 100% !important;
+    justify-content: center;
+    margin: auto;
+    max-width: 100% !important;
+    height: 255px;    
+}
+.subpage-title-header-residential {
 	background-image: url(../images/PR-header-4.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 25vw;
-	max-width: 100%;
+	background-position: 100%;
 }
-.subpage-bg-header-commercial{
+.subpage-title-header-commercial{
 	background-image: url(../images/PR-header-5.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 25vw;
-	max-width: 100%;
 }
-.subpage-bg-header-about-us{
+.subpage-title-header-about-us{
 	background-image: url(../images/PR-header-1.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 25vw;
-	max-width: 100%;
 }
-.subpage-bg-header-contact-us{
+.subpage-title-header-contact-us{
 	background-image: url(../images/PR-header-3.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 25vw;
-	max-width: 100%;
 }
-.subpage-bg-header-blog{
+.subpage-title-header-blog{
 	background-image: url(../images/PR-header-2.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 25vw;
-	max-width: 100%;
 }
 
 
