@@ -67,9 +67,10 @@
 	background-size: cover;
 }
 .subpage-title-header-about-us{
-	background-image: url(../images/PR-header-1.jpg);
+	background-image: url(/wp-content/uploads/2020/03/PR-subpage-images_0002_Loeb-Website-pic.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 100% 90%;
 }
 .subpage-title-header-contact-us{
 	background-image: url(../images/PR-header-3.jpg);
