@@ -13,6 +13,9 @@
 	.main-navigation {
         display: none !important;
     }
+    .subpage-header-tag {
+        display: none;
+    }
     .top-content {
         grid-template-columns: 100%;
     }

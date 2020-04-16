@@ -45,6 +45,7 @@
 }
 .site-header-subpage .header-top {
 	border-bottom: solid 5px var(--primary-color);
+	height: 190px;
 }
 .subpage-title-bg-header {
 	align-items: center;
@@ -81,6 +82,17 @@
 	background-image: url(../images/PR-header-2.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.subpage-header-tag {
+	text-align: center;
+    grid-area: span 1 / span 2;
+    color: #ce1212;
+    color: var(--primary-color);
+    font-family: Muli,sans-serif;
+    font-family: var(--global-font-family);
+    font-weight: 900;
+    font-size: 20px;
 }
 
 
@@ -198,6 +210,10 @@
 
 .wrap-3 .service-text {
 	margin: 10px 15%;
+}
+.icon-card {
+	width: 150px;
+    height: auto;
 }
 
 /*--------------------------------------------------------------

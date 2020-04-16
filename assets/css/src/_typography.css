@@ -39,16 +39,20 @@ h6 {font-size: 12px !important;}
 	background-color: rgba(255,255,255,.45);
     box-shadow: 0 0 15px 15px rgba(255,255,255,.45);
     border-radius: 40px;
-    padding: 15px;
+	padding: 15px;
+	width: 100%;
+    line-height: 6 !important;
+    height: 100%;
 }
 
 .entry-header h1.entry-title,
 .page-header .page-title {
-	text-align: center;
+	text-align: center; 
 	font-size: 2.5rem;
 	line-height: 1.4;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	font-weight: 900;
 }
 
 dfn,

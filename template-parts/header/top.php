@@ -6,6 +6,7 @@
  */
 
 namespace WP_Rig\WP_Rig;
+$headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 ?>
 
 <div class="header-top">
@@ -16,4 +17,9 @@ namespace WP_Rig\WP_Rig;
             <?php get_template_part( 'template-parts/header/navigation' ); ?>
         </div>
     </div>
+    <?php if($headerClass == "site-header-subpage") { ?>
+        <div class="subpage-header-tag">
+            <span>We've got you covered.</span>
+        </div>
+    <?php } ?>
 </div><!-- .header-top -->
