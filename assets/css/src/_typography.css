@@ -35,16 +35,6 @@ h4 {font-size: 20px !important;}
 h5 {font-size: 16px !important;}
 h6 {font-size: 12px !important;}
 
-.entry-title, .page-title {
-	background-color: rgba(255,255,255,.45);
-    box-shadow: 0 0 15px 15px rgba(255,255,255,.45);
-    border-radius: 40px;
-	padding: 15px;
-	width: 100%;
-    line-height: 6 !important;
-    height: 100%;
-}
-
 .entry-header h1.entry-title,
 .page-header .page-title {
 	text-align: center; 

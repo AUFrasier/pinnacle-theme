@@ -32,9 +32,11 @@ if ( is_404() ) {
 } elseif ( is_home() && ! is_front_page() ) {
 	?>
 	<header class="page-header <?php echo $subTitleBgImgHeader . " " . $subpageTitleClass; ?>">
-		<h1 class="page-title">
-			<?php single_post_title(); ?>
-		</h1>
+		<div class="entry-header-bg"> 
+			<h1 class="page-title">
+				<?php single_post_title(); ?>
+			</h1>
+		</div>
 	</header><!-- .page-header -->
 	<?php
 } elseif ( is_search() ) {

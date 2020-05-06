@@ -24,7 +24,7 @@
         width: 150px;
     }
     .header-top {
-        height: auto;
+        height: auto !important;
     }
     .header-actions-wrapper {
         text-align: center;
@@ -53,7 +53,13 @@
         width: 100%;
     }
 }
-
+@media (--mobile-device-phone-M) {
+    .branding-wrapper {
+        float:none;
+        width: 100%;
+        margin-top:40px;
+    }
+}
 @media (--mobile-device-phone-S) {
     #logo {
         max-width: 185px !important;

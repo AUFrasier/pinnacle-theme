@@ -28,11 +28,13 @@ if (!is_singular( 'post' ) && !is_home()) {
 	echo $subpageTitleClass;
 }
 ?>">
-	<?php
-	get_template_part( 'template-parts/content/entry_title', get_post_type() );
+	<div class="entry-header-bg"> 
+		<?php
+		get_template_part( 'template-parts/content/entry_title', get_post_type() );
 
-	if ( ! is_search() ) {
-		get_template_part( 'template-parts/content/entry_thumbnail', get_post_type() );
-	}
-	?>
+		if ( ! is_search() ) {
+			get_template_part( 'template-parts/content/entry_thumbnail', get_post_type() );
+		}
+		?>
+	</div>
 </header><!-- .entry-header -->
